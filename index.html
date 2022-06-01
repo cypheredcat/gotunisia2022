@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--- By TIGGER-X#2197 --->
+<html lang="en">
+<head>
+	<title>Go Tunisia 2022 | Coming Soon</title>
+	<link rel="icon" type="image/x-icon" href="media/favicon.webp">
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="timer.js"></script>
+</head>
+<body>
+	<div>
+	<center>
+		<img src="media/logo.webp" class="logo"><br>
+		<img src="media/gotunisiacollection.webp" class="collection"><br>
+		<button class="cybr-btn" onclick="setTimeout(function(){window.location.href = 'https://gotunisia.tn/?refer=comingsoon-warsey';}, 500);">Shop Now<span aria-hidden>_</span>
+		  <span aria-hidden class="cybr-btn__glitch">Go Tunisia_</span>
+		  <span aria-hidden class="cybr-btn__tag">#TN</span>
+		</button>
+		<p class="text2">Site is under construction.</p>
+		<p id="ex" class="timer">- CONNECTING.. -</p>
+		<p class="copyright">(c) Warsey(R). 2022. & All rights reserved. | 2022 (c) GOTUNISIA</p>
+	</center>
+	</div>
+	<script>
+		var countDownDate = new Date("June 3, 2022 15:37:25").getTime();
+
+		var x = setInterval(function() {
+
+		  var now = new Date().getTime();
+
+		  var distance = countDownDate - now;
+
+		  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+		  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+		  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+		  document.getElementById("ex").innerHTML = days + "d " + hours + "h "
+		  + minutes + "m " + seconds + "s ";
+		  if (distance < 0) {
+		    clearInterval(x);
+		    document.getElementById("ex").innerHTML = "[ Coming Soon ]";
+		  }
+		}, 1000);
+	</script>
+</body>
+</html>
