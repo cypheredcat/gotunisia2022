@@ -14,6 +14,12 @@ function twitter() {
 	swal({text: "Our Twitter Account isn't availble yet.",dangerMode: true});
 }
 
+function mobilewhatsapp() {
+	url = 'https://wa.me/905525094317';
+	window.open(url, '_blank');
+	swal({text: "Redirected you to WhatsApp.",icon: "success",dangerMode: true});
+}
+
 function textwhatsapp() {
 	swal({
 		content: "input",
