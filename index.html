@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--- By TIGGER-X#2197 --->
+<html lang="en">
+<head>
+	<title>Go Tunisia 2022 | Coming Soon</title>
+	<link rel="icon" type="image/x-icon" href="media/favicon.webp">
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>          
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="scripts/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="scripts/app.js"></script>
+</head>
+<body>
+	<div>
+	<center>
+		<img src="media/logo.webp" class="logo"><br>
+		<img src="media/gotunisiacollection.webp" class="collection"><br>
+		<button class="cybr-btn" onclick="setTimeout(function(){window.location.href = 'https://toutici.tn/produit-cat%C3%A9gorie/vente-produits-de-sport-en-tunisie/sport-fitness/football/?refer=warsey';}, 500);">Shop Now<span aria-hidden>_</span>
+		  <span aria-hidden class="cybr-btn__glitch">Go Tunisia_</span>
+		  <span aria-hidden class="cybr-btn__tag">#TN</span>
+		</button>
+		<p class="text2">24/7 delivery, Get Your Shirt Now!</p>
+		<img src="media/cashod.webp" class="cashod" alt="Cash On Delivery.">
+		<noscript>JS is disabled, some functions are availble :(</noscript>
+		<button class="whatsappicon" onclick="whatsapp();"><i class='fa fa-whatsapp'></i></button>
+		<button class="instagramicon" onclick="instagram();"><i class='fa fa-instagram'></i></button>
+		<button class="twittericon" onclick="twitter();"><i class='fa fa-twitter'></i></button>
+		<button class="facebookicon" onclick="facebook();"><i class='fa fa-facebook'></i></button>
+		<p id="ex" class="timer">- CONNECTING.. -</p>
+		<p class="timertext">till FIFA World Cup Qatar 2022(tm).</p>
+		<p class="copyright">(c) Warsey(R). 2022. & All rights reserved. | 2022 (c) GOTUNISIA</p>
+	</center>
+	</div>
+	<script type="text/javascript">
+		var countDownDate = new Date("November 21, 2022 15:37:25").getTime();
+
+		var x = setInterval(function() {
+
+		  var now = new Date().getTime();
+
+		  var distance = countDownDate - now;
+
+		  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+		  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+		  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+		  document.getElementById("ex").innerHTML = days + "D " + hours + "H "
+		  + minutes + "M " + seconds + "S ";
+		  if (distance < 0) {
+		    clearInterval(x);
+		    document.getElementById("ex").innerHTML = "[ Coming Soon ]";
+		  }
+		}, 1000);
+	</script>
+	<script type="text/javascript">
+		let ack = atob("V2Fyc2V5IChjKSB8IFdyaXR0ZW4gYnkgRWxsaW90Cg==");
+		document.cookie = 'Acknowledgements='+ack;
+	</script>
+</body>
+</html>
