@@ -193,7 +193,7 @@ body {
     .facebookicon {visibility: hidden;}
     .twittericon {visibility: hidden;}
     .cashod {visibility: hidden;}
-    .mobilesocial {visibility: visible;width: 8%;margin: 0 0 10px;cursor: pointer;}
+    .mobilesocial {visibility: visible;width: 8%;margin: 0 0 30px;cursor: pointer;}
 }
 
 .cybr-btn {
