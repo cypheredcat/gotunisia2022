@@ -36,7 +36,6 @@ body {
   font-size: 15px;
   font-family: 'Exo 2', sans-serif;
   font-style: italic;
-  padding: 0px 10px;
 }
 
 .cashod {
@@ -181,7 +180,7 @@ body {
 
 .mobilesocial {
   visibility: hidden;
-  width: 0%;
+  width: 0px;
 }
 
 @media (max-width : 680px) {
@@ -193,7 +192,9 @@ body {
     .facebookicon {visibility: hidden;}
     .twittericon {visibility: hidden;}
     .cashod {visibility: hidden;}
-    .mobilesocial {visibility: visible;width: 8%;cursor: pointer;}
+    .mobilesocial {visibility: visible;width: 8%;cursor: pointer;padding: 0 0 40%;}
+    .timer{visibility: hidden;font-size: 0px;letter-spacing: 0px;font-weight: 0px;padding: 0}
+    .timertext{visibility: hidden;font-size: 0px;letter-spacing: 0px;font-weight: 0px;padding: 0;}
 }
 
 .cybr-btn {
